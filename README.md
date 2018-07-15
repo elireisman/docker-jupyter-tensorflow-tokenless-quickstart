@@ -7,6 +7,8 @@ _NOTE: this is for "quick start/test drive" purposes only and is NOT RECOMMENDED
 ### How?
 Here's the incantation that I'm using:
 ```bash
+mkdir -p $HOME/tensorflow/work
+
 docker run --rm -p 8888:8888 -d \
   --name tensorflow_tokenless \
   -v $HOME/tensorflow/work:/home/jovyan/work \
