@@ -5,10 +5,15 @@ These days, that means pulling a fresh token from the startup logs and dropping 
 _NOTE: this is for "quick start/test drive" purposes only and is NOT RECOMMENDED for other uses, as the maintainers repeatedly explain in the issue._
 
 ### How?
+Here's the setup:
+```bash
+docker pull jupyter/tensorflow-notebook
+
+mkdir -p $HOME/tensorflow/work
+```
+
 Here's the incantation that I'm using:
 ```bash
-mkdir -p $HOME/tensorflow/work
-
 docker run --rm -p 8888:8888 -d \
   --name tensorflow_tokenless \
   -v $HOME/tensorflow/work:/home/jovyan/work \
