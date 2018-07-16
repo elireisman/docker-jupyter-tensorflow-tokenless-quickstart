@@ -1,6 +1,6 @@
 ### Why?
 I wanted to try out TensorFlow using a Jupyter Notebook, using the [standard Docker image](http://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-tensorflow-notebook), with an ephemeral container, but bind-mounting a work directory on my local machine so my work persists across runs.
-These days, that means pulling a fresh token from the startup logs and dropping it into your browser, every run. [Lots of folks seem upset](https://github.com/jupyter/notebook/issues/2254) that this isn't easier to achieve.
+These days, that means pulling a fresh token from the startup logs and dropping it into your browser, every run. [Lots of folks seem upset](https://github.com/jupyter/notebook/issues/2254) about the extra step. Follow the steps below to start your container without the token dance.
 
 _NOTE: this is for "quick start/test drive" purposes only and is NOT RECOMMENDED for other uses, as the maintainers repeatedly explain in the issue._
 
