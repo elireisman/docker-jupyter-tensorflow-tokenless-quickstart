@@ -1,7 +1,7 @@
 ### Why?
 Try out TensorFlow using a Jupyter Notebook using the [standard Docker image](http://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-tensorflow-notebook) with an ephemeral container, bind-mounting in a work directory.
 
-_NOTE: this isn't a good idea, just handy for a quick test drive
+_NOTE: this isn't a good idea, just handy for a quick test drive_
 
 
 ### How?
